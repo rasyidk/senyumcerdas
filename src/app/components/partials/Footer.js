@@ -107,7 +107,7 @@ export function Footer({ type }) {
         className={`flex  h-10 w-full items-center justify-center text-center lg:h-16`}
       >
         <h4 className=" font-montserrat text-[12px]  text-white  md:text-[16px]">
-          © Rumah Korea Indonesia. All rights reserved.
+          © Senyum Cerdas. All rights reserved.
         </h4>
       </div>
     </footer>
