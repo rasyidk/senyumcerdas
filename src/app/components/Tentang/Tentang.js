@@ -23,7 +23,7 @@ export function Tentang() {
     <div className="w-full bg-white p-24">
       <div className="flex flex-col items-center justify-center gap-16">
         <span className="text-primary text-4xl font-semibold">
-          Tentang Rumah Korea Indonesia
+          Tentang Senyum Cerdas
         </span>
         <div className="w-full">
           <Swiper

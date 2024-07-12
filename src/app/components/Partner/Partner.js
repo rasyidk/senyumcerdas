@@ -5,7 +5,7 @@ export default function Partner() {
     <div className="w-full bg-[#F5F5F5]">
       <div className="flex flex-col items-center justify-center py-16 gap-10">
         <span className="text-primary text-4xl font-semibold">
-          Partner Rumah Korea Indonesia
+          Partner Senyum Cerdas
         </span>
         <div className="flex flex-row gap-10 items-center justify-center">
           <Image

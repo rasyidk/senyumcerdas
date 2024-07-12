@@ -59,7 +59,7 @@ export function Footer({ type }) {
         <div className="  w-full rounded-[40px]   p-4 md:p-8 lg:flex lg:justify-between ">
           <div>
             <div className="mt-12 font-rockwell text-[16px] font-bold  md:text-[20px]">
-              <p>Rumah Korea Indonesia</p>
+              <p>Senyum Cerdas</p>
             </div>
 
             <div className="flex flex-row mt-4 items-start">
