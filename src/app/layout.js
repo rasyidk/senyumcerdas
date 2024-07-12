@@ -3,11 +3,14 @@ import "./globals.css";
 import Navbar from "./components/partials/Navbar";
 import Footer from "./components/partials/Footer";
 
-const poppins = Poppins({ weight: ["400", "500", "600", "700"], subsets: ["latin"] });
+const poppins = Poppins({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+});
 
 export const metadata = {
-  title: "Rumah Korea",
-  description: "Rumah Korea",
+  title: "Senyum Cerdas",
+  description: "Senyum Cerdas",
 };
 
 export default function RootLayout({ children }) {
