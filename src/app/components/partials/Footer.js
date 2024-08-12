@@ -21,40 +21,36 @@ import {
 const medsos = [
   {
     type: "instagram",
-    link: "https://www.instagram.com/porsenigama/",
+    link: "https://www.instagram.com/rumahkoreaedu",
     icon1: "type1_instagram",
-    icon: <SiInstagram />,
-  },
-  {
-    type: "tiktok",
-    link: "https://www.tiktok.com/@porsenigama",
-    icon1: "type1_tiktok",
-    icon: <SiTiktok />,
   },
   {
     type: "youtube",
-    link: "https://www.youtube.com/@porsenigamatv3221",
+    link: "https://www.youtube.com/channel/UChIBJIAOf8wo_zM2hE7LdFw",
     icon1: "type1_youtube",
-    icon: <SiYoutube />,
+  },
+
+  {
+    type: "linkedin",
+    link: "https://www.linkedin.com/company/rumah-korea/",
+    icon1: "type1_linkedin",
   },
 
   {
     type: "twitter",
-    link: "https://twitter.com/porsenigama",
+    link: "https://x.com/rumahkoreaedu",
     icon1: "type1_x",
-    icon: <SiX />,
   },
   {
-    type: "line",
-    link: "https://page.line.me/porsenigama?openQrModal=true",
+    type: "facebook",
+    link: "https://www.facebook.com/rumahkoreaedu/",
     icon1: "type1_line",
-    icon: <SiLine />,
   },
 ];
 
 export function Footer({ type }) {
   return (
-    <footer className=" bg-primary w-full items-center justify-center">
+    <footer className=" bg-primary w-full items-center justify-center text-white">
       <div className="flex justify-between px-[16px] pb-4 md:px-[32px] lg:px-[72px] lg:pb-0">
         <div className="  w-full rounded-[40px]   p-4 md:p-8 lg:flex lg:justify-between ">
           <div>
@@ -67,9 +63,8 @@ export function Footer({ type }) {
                 <IoLocationSharp className=" mr-2 h-6 w-6 text-gray-500" />
               </div>
               <p className=" max-w-[530px] font-montserrat text-[12px]  md:text-[16px]">
-                Gelanggang Mahasiswa Universitas Gadjah Mada Jl. Pancasila No.1,
-                Bulaksumur, Caturtunggal, Sleman, Daerah Istimewa Yogyakarta
-                55281
+                Jl. Salakan No.6, RT.01, Randubelang, Bangunharjo, Kec. Sewon,
+                Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188 081328404065
               </p>
             </div>
 
@@ -93,8 +88,18 @@ export function Footer({ type }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="hover:bg-green-30 flex w-[24px] items-center justify-center ">
-                    {link.icon}
+                  <div className="hover:bg-green-30 flex w-[50px] items-center justify-center ">
+                    <Image
+                      src={
+                        "/assets/sosmed/" +
+                        link.type.charAt(0).toUpperCase() +
+                        link.type.slice(1) +
+                        ".png"
+                      }
+                      unoptimized
+                      width={100}
+                      height={100}
+                    />
                   </div>
                 </a>
               ))}

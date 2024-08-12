@@ -11,6 +11,9 @@ const poppins = Poppins({
 export const metadata = {
   title: "Senyum Cerdas",
   description: "Senyum Cerdas",
+  icons: {
+    icon: "/assets/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {

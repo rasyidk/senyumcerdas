@@ -1,11 +1,14 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 
 export default function HomeHero() {
   const backgroundImage = {
-    backgroundImage: "url('/assets/hero.jpg')",
+    backgroundImage: "url('/assets/hero.svg')",
     backgroundSize: "cover",
     backgroundPosition: "top",
+    backgroundAttachment: "fixed",
   };
 
   return (
@@ -17,20 +20,17 @@ export default function HomeHero() {
 
       <div className="flex w-full flex-col min-h-screen absolute z-10 items-start justify-center">
         <div className="container mx-auto ">
-          <div className="flex justify-center lg:justify-start">
-            {/* <Image
-              width={200}
-              height={100}
-              src="/assets/ruko-hero.svg"
+          <div className="flex ">
+            <Image
+              width={500}
+              height={500}
+              src="/assets/logo.png"
               alt="Logo"
               className="w-32 md:w-32 lg:w-80"
-            /> */}
+              data-aos="fade-up"
+            />
           </div>
-
-          <h1 className="text-4xl md:text-5xl xl:text-6xl text-primary font-poppins font-bold text-center lg:text-start">
-            Senyum Cerdas
-          </h1>
-          <p className="text-lg md:text-xl xl:text-2xl  italic  text-center lg:text-start text-primary">
+          <p className="text-lg md:text-xl xl:text-2xl text-white italic font-semibold text-left ">
             Temukan senyum terbaikmu bersama kami
           </p>
         </div>
