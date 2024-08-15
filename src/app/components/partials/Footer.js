@@ -2,48 +2,22 @@ import React from "react";
 import Image from "next/image";
 import { IoLocationSharp, IoTime } from "react-icons/io5";
 import PropTypes from "prop-types";
-import {
-  IoChatbubbleEllipses,
-  IoGlobeOutline,
-  IoLogoLinkedin,
-  IoMail,
-} from "react-icons/io5";
-import {
-  SiFacebook,
-  SiLine,
-  SiTiktok,
-  SiTwitter,
-  SiYoutube,
-  SiInstagram,
-  SiX,
-} from "react-icons/si";
 
 const medsos = [
   {
     type: "instagram",
-    link: "https://www.instagram.com/rumahkoreaedu",
+    link: "https://www.instagram.com/jst.jogja?igsh=djF1OW80M3RkYXR3",
     icon1: "type1_instagram",
   },
-  {
-    type: "youtube",
-    link: "https://www.youtube.com/channel/UChIBJIAOf8wo_zM2hE7LdFw",
-    icon1: "type1_youtube",
-  },
 
   {
-    type: "linkedin",
-    link: "https://www.linkedin.com/company/rumah-korea/",
-    icon1: "type1_linkedin",
-  },
-
-  {
-    type: "twitter",
-    link: "https://x.com/rumahkoreaedu",
+    type: "tiktok",
+    link: "https://www.tiktok.com/@jst.jogja?_t=8ooOAxCdsVI&_r=1",
     icon1: "type1_x",
   },
   {
     type: "facebook",
-    link: "https://www.facebook.com/rumahkoreaedu/",
+    link: "https://www.facebook.com/share/SVLYPyxWwGEiEaj2/?mibextid=qi2Omg",
     icon1: "type1_line",
   },
 ];
@@ -55,7 +29,7 @@ export function Footer({ type }) {
         <div className="  w-full rounded-[40px]   p-4 md:p-8 lg:flex lg:justify-between ">
           <div>
             <div className="mt-12 font-rockwell text-[16px] font-bold  md:text-[20px]">
-              <p>Senyum Cerdas</p>
+              <p>Senyum Cerdas Indonesia</p>
             </div>
 
             <div className="flex flex-row mt-4 items-start">
@@ -63,8 +37,7 @@ export function Footer({ type }) {
                 <IoLocationSharp className=" mr-2 h-6 w-6 text-gray-500" />
               </div>
               <p className=" max-w-[530px] font-montserrat text-[12px]  md:text-[16px]">
-                Jl. Salakan No.6, RT.01, Randubelang, Bangunharjo, Kec. Sewon,
-                Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188 081328404065
+                Karangkajen MG III/911 Yogyakarta
               </p>
             </div>
 
